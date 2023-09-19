@@ -1,8 +1,18 @@
-let btn = document.querySelectorAll('button');
 
-let result = document.querySelector('input');
+let result = document.getElementById('result');
 
-btn.addEventListener('click',function(){
-    console.log(btn);
-});
+function appendToDisplay(value) {
+    result.value += value;
+}
 
+function clearDisplay() {
+    result.value = '';
+}
+
+function calculateResult() {
+    try {
+        result.value = eval(result.value);
+    } catch (error) {
+        result.value = 'Error';
+    }
+}

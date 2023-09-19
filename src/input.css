@@ -5,9 +5,13 @@
 @layer components{
     .btn-primary{
         @apply border py-3 shadow-sm transition-all duration-300 hover:shadow-md
-        font-bold text-xl cursor-pointer outline-none
+        font-bold text-xl bg-white text-secondary hover:bg-secondary hover:text-white rounded-sm
     }
     .btn-equal{
-        @apply border shadow-sm transition-all duration-300 hover:shadow-md font-bold text-xl
+        @apply border shadow-sm transition-all duration-300 hover:shadow-md font-bold text-xl bg-equal rounded-sm
+    }
+    .input{
+        @apply border pr-3 shadow-sm transition-all duration-300 hover:shadow-md
+        font-bold text-xl cursor-pointer outline-none rounded-sm text-right flex items-center
     }
 }

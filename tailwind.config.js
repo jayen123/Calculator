@@ -5,6 +5,11 @@ module.exports = {
     extend: {
       container : {
         center : true
+      },
+      colors : {
+        'primary' : '#57c5cf',
+        'secondary' : '#101827',
+        'equal' : '#efeeea'
       }
     },
   },
