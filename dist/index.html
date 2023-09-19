@@ -3,10 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/dist/image/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="output.css">
     <title>Calculator</title>
 </head>
 <body>
-        <h1 class="bg-slate-400">Hii Tailwind</h1>
+        <section class="h-screen flex items-center">
+            <div class="container">
+                <div class="row grid grid-cols-4 grid-rows-6 max-w-[300px] gap-3 mx-auto">
+                    <input class="btn-primary col-span-4" type="text" readonly>
+                    <button id="htc" class="btn-primary">+</button>
+                    <button class="btn-primary">-</button>
+                    <button class="btn-primary">&times;</button>
+                    <button class="btn-primary">&divide;</button>
+                    <button class="btn-primary">7</button>
+                    <button class="btn-primary">8</button>
+                    <button class="btn-primary">9</button>
+                    <button class="btn-equal row-span-4 py-0">=</button>
+                    <button class="btn-primary">4</button>
+                    <button class="btn-primary">5</button>
+                    <button class="btn-primary">6</button>
+                    <button class="btn-primary">1</button>
+                    <button class="btn-primary">2</button>
+                    <button class="btn-primary">3</button>
+                    <button class="btn-primary">0</button>
+                    <button class="btn-primary">.</button>
+                    <button class="btn-primary">C</button>
+                </div>
+            </div>
+        </section>
+
+    <script src="/dist/js/custom.js"></script>
 </body>
 </html>

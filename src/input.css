@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .btn-primary{
+        @apply border py-3 shadow-sm transition-all duration-300 hover:shadow-md
+        font-bold text-xl cursor-pointer outline-none
+    }
+    .btn-equal{
+        @apply border shadow-sm transition-all duration-300 hover:shadow-md font-bold text-xl
+    }
+}
