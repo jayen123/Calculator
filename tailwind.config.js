@@ -7,9 +7,9 @@ module.exports = {
         center : true
       },
       colors : {
-        'primary' : '#57c5cf',
-        'secondary' : '#101827',
-        'equal' : '#efeeea'
+        'primary' : '#101827',
+        'secondary' : '#0db8a6', 
+        'equal' : '#efeeea' 
       }
     },
   },
